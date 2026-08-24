@@ -1,0 +1,1954 @@
+{
+  "speakers": [
+    {
+      "line_start": "1",
+      "line_end": "63",
+      "speaker": "Dionysus",
+      "section_id": "prologue"
+    },
+    {
+      "line_start": "64",
+      "line_end": "72",
+      "speaker": "Chorus",
+      "section_id": "parodos"
+    },
+    {
+      "line_start": "73a",
+      "line_end": "87b",
+      "speaker": "Chorus",
+      "section_id": "parodos"
+    },
+    {
+      "line_start": "88a",
+      "line_end": "104",
+      "speaker": "Chorus",
+      "section_id": "parodos"
+    },
+    {
+      "line_start": "105",
+      "line_end": "119",
+      "speaker": "Chorus",
+      "section_id": "parodos"
+    },
+    {
+      "line_start": "120",
+      "line_end": "134",
+      "speaker": "Chorus",
+      "section_id": "parodos"
+    },
+    {
+      "line_start": "135",
+      "line_end": "169",
+      "speaker": "Chorus",
+      "section_id": "parodos"
+    },
+    {
+      "line_start": "170",
+      "line_end": "177",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "178",
+      "line_end": "189a",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "189b",
+      "line_end": "190",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "191",
+      "line_end": "191",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "192",
+      "line_end": "192",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "193",
+      "line_end": "193",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "194",
+      "line_end": "194",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "195",
+      "line_end": "195",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "196",
+      "line_end": "196",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "197",
+      "line_end": "197",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "198",
+      "line_end": "198",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "199",
+      "line_end": "199",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "200",
+      "line_end": "209",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "210",
+      "line_end": "214",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "215",
+      "line_end": "262",
+      "speaker": "Pentheus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "263",
+      "line_end": "265",
+      "speaker": "Chorus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "266",
+      "line_end": "327",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "328",
+      "line_end": "329",
+      "speaker": "Chorus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "330",
+      "line_end": "342",
+      "speaker": "Cadmus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "343",
+      "line_end": "357",
+      "speaker": "Pentheus",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "358",
+      "line_end": "369",
+      "speaker": "Teiresias",
+      "section_id": "scene_1"
+    },
+    {
+      "line_start": "370",
+      "line_end": "385b",
+      "speaker": "Chorus",
+      "section_id": "stasimon_1"
+    },
+    {
+      "line_start": "386",
+      "line_end": "401b",
+      "speaker": "Chorus",
+      "section_id": "stasimon_1"
+    },
+    {
+      "line_start": "402",
+      "line_end": "416",
+      "speaker": "Chorus",
+      "section_id": "stasimon_1"
+    },
+    {
+      "line_start": "417",
+      "line_end": "432",
+      "speaker": "Chorus",
+      "section_id": "stasimon_1"
+    },
+    {
+      "line_start": "434",
+      "line_end": "450",
+      "speaker": "Servant",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "451",
+      "line_end": "460",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "461",
+      "line_end": "462",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "463",
+      "line_end": "463",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "464",
+      "line_end": "464",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "465",
+      "line_end": "465",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "466",
+      "line_end": "466",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "467",
+      "line_end": "467",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "468",
+      "line_end": "468",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "469",
+      "line_end": "469",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "470",
+      "line_end": "470",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "471",
+      "line_end": "471",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "472",
+      "line_end": "472",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "473",
+      "line_end": "473",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "474",
+      "line_end": "474",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "475",
+      "line_end": "475",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "476",
+      "line_end": "476",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "477",
+      "line_end": "477",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "478",
+      "line_end": "478",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "479",
+      "line_end": "479",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "480",
+      "line_end": "480",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "481",
+      "line_end": "481",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "482",
+      "line_end": "482",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "483",
+      "line_end": "483",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "484",
+      "line_end": "484",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "485",
+      "line_end": "485",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "486",
+      "line_end": "486",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "487",
+      "line_end": "487",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "488",
+      "line_end": "488",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "489",
+      "line_end": "489",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "490",
+      "line_end": "490",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "491",
+      "line_end": "491",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "492",
+      "line_end": "492",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "493",
+      "line_end": "493",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "494",
+      "line_end": "494",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "495",
+      "line_end": "495",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "496",
+      "line_end": "496",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "497",
+      "line_end": "497",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "498",
+      "line_end": "498",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "499",
+      "line_end": "499",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "500",
+      "line_end": "500",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "501",
+      "line_end": "501",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "502",
+      "line_end": "502",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "503",
+      "line_end": "503",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "504",
+      "line_end": "504",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "505",
+      "line_end": "505",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "506",
+      "line_end": "506",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "507",
+      "line_end": "507",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "508",
+      "line_end": "508",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "509",
+      "line_end": "514",
+      "speaker": "Pentheus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "515",
+      "line_end": "518",
+      "speaker": "Dionysus",
+      "section_id": "scene_2"
+    },
+    {
+      "line_start": "519a",
+      "line_end": "536",
+      "speaker": "Chorus",
+      "section_id": "stasimon_2"
+    },
+    {
+      "line_start": "537",
+      "line_end": "555",
+      "speaker": "Chorus",
+      "section_id": "stasimon_2"
+    },
+    {
+      "line_start": "556",
+      "line_end": "575",
+      "speaker": "Chorus",
+      "section_id": "stasimon_2"
+    },
+    {
+      "line_start": "576a",
+      "line_end": "577",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "578",
+      "line_end": "579",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "580",
+      "line_end": "581",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "582",
+      "line_end": "584",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "585",
+      "line_end": "585",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "586",
+      "line_end": "593",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "594",
+      "line_end": "595",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "596a",
+      "line_end": "603",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "604",
+      "line_end": "607",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "608",
+      "line_end": "609",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "610",
+      "line_end": "611",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "612",
+      "line_end": "613",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "614",
+      "line_end": "614",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "615",
+      "line_end": "615",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "616",
+      "line_end": "641",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "642",
+      "line_end": "646",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "647",
+      "line_end": "647",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "648",
+      "line_end": "648",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "649",
+      "line_end": "649",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "650",
+      "line_end": "650",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "651a",
+      "line_end": "651a",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "651b",
+      "line_end": "651b",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "652",
+      "line_end": "652",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "653",
+      "line_end": "653",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "654",
+      "line_end": "654",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "655",
+      "line_end": "655",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "656",
+      "line_end": "659",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "660",
+      "line_end": "662",
+      "speaker": "Messenger 1",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "663",
+      "line_end": "663",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "664",
+      "line_end": "671",
+      "speaker": "Messenger 1",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "672",
+      "line_end": "676",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "677",
+      "line_end": "774",
+      "speaker": "Messenger 1",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "775",
+      "line_end": "777",
+      "speaker": "Chorus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "778",
+      "line_end": "786",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "787",
+      "line_end": "791",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "792",
+      "line_end": "793",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "794",
+      "line_end": "795",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "796",
+      "line_end": "797",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "798",
+      "line_end": "799",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "800",
+      "line_end": "800",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "801",
+      "line_end": "801",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "802",
+      "line_end": "802",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "803",
+      "line_end": "803",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "804",
+      "line_end": "804",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "805",
+      "line_end": "805",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "806",
+      "line_end": "806",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "807",
+      "line_end": "807",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "808",
+      "line_end": "809",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "810",
+      "line_end": "811",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "812",
+      "line_end": "812",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "813",
+      "line_end": "813",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "814",
+      "line_end": "814",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "815",
+      "line_end": "815",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "816",
+      "line_end": "816",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "817",
+      "line_end": "817",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "818",
+      "line_end": "818",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "819",
+      "line_end": "819",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "820",
+      "line_end": "820",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "821",
+      "line_end": "821",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "822",
+      "line_end": "822",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "823",
+      "line_end": "823",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "824",
+      "line_end": "824",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "825",
+      "line_end": "825",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "826",
+      "line_end": "826",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "827",
+      "line_end": "827",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "828",
+      "line_end": "828",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "829",
+      "line_end": "829",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "830",
+      "line_end": "830",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "831",
+      "line_end": "831",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "832",
+      "line_end": "832",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "833",
+      "line_end": "833",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "834",
+      "line_end": "834",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "835",
+      "line_end": "835",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "836",
+      "line_end": "836",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "837",
+      "line_end": "837",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "838",
+      "line_end": "838",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "839",
+      "line_end": "839",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "840",
+      "line_end": "840",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "841",
+      "line_end": "841",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "842",
+      "line_end": "843",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "844",
+      "line_end": "844",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "845",
+      "line_end": "847",
+      "speaker": "Pentheus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "848",
+      "line_end": "861",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "862",
+      "line_end": "881",
+      "speaker": "Chorus",
+      "section_id": "stasimon_3"
+    },
+    {
+      "line_start": "882",
+      "line_end": "901",
+      "speaker": "Chorus",
+      "section_id": "stasimon_3"
+    },
+    {
+      "line_start": "902",
+      "line_end": "911",
+      "speaker": "Chorus",
+      "section_id": "stasimon_3"
+    },
+    {
+      "line_start": "912",
+      "line_end": "917",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "918",
+      "line_end": "922",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "923",
+      "line_end": "924",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "925",
+      "line_end": "926",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "927",
+      "line_end": "929",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "930",
+      "line_end": "931",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "932",
+      "line_end": "933",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "934",
+      "line_end": "934",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "935",
+      "line_end": "936",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "937",
+      "line_end": "938",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "939",
+      "line_end": "940",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "941",
+      "line_end": "942",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "943",
+      "line_end": "944",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "945",
+      "line_end": "946",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "947",
+      "line_end": "948",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "949",
+      "line_end": "950",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "951",
+      "line_end": "952",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "953",
+      "line_end": "954",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "955",
+      "line_end": "956",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "957",
+      "line_end": "958",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "959",
+      "line_end": "960",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "961",
+      "line_end": "962",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "963",
+      "line_end": "966a",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "966b",
+      "line_end": "966b",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "967a",
+      "line_end": "967a",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "967b",
+      "line_end": "967b",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "968a",
+      "line_end": "968a",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "968b",
+      "line_end": "968b",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "969a",
+      "line_end": "969a",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "969b",
+      "line_end": "969b",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "970a",
+      "line_end": "970a",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "970b",
+      "line_end": "970b",
+      "speaker": "Pentheus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "971",
+      "line_end": "976",
+      "speaker": "Dionysus",
+      "section_id": "scene_4"
+    },
+    {
+      "line_start": "977",
+      "line_end": "996",
+      "speaker": "Chorus",
+      "section_id": "stasimon_4"
+    },
+    {
+      "line_start": "997",
+      "line_end": "1016",
+      "speaker": "Chorus",
+      "section_id": "stasimon_4"
+    },
+    {
+      "line_start": "1018",
+      "line_end": "1023",
+      "speaker": "Chorus",
+      "section_id": "stasimon_4"
+    },
+    {
+      "line_start": "1024",
+      "line_end": "1028",
+      "speaker": "Messenger 2",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1029",
+      "line_end": "1029",
+      "speaker": "Chorus",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1030",
+      "line_end": "1030",
+      "speaker": "Messenger 2",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1031",
+      "line_end": "1031",
+      "speaker": "Chorus",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1032",
+      "line_end": "1033",
+      "speaker": "Messenger 2",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1034",
+      "line_end": "1035",
+      "speaker": "Chorus",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1036a",
+      "line_end": "1036b",
+      "speaker": "Messenger 2",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1037",
+      "line_end": "1038",
+      "speaker": "Chorus",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1039",
+      "line_end": "1040",
+      "speaker": "Messenger 2",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1041",
+      "line_end": "1042",
+      "speaker": "Chorus",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1043",
+      "line_end": "1152",
+      "speaker": "Messenger 2",
+      "section_id": "scene_5"
+    },
+    {
+      "line_start": "1153",
+      "line_end": "1164",
+      "speaker": "Chorus",
+      "section_id": "stasimon_5"
+    },
+    {
+      "line_start": "1165",
+      "line_end": "1167",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1168a",
+      "line_end": "1168a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1168b",
+      "line_end": "1168b",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1169",
+      "line_end": "1171",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1172",
+      "line_end": "1172",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1173",
+      "line_end": "1175",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1176",
+      "line_end": "1176",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1177a",
+      "line_end": "1177a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1177b",
+      "line_end": "1177b",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1178",
+      "line_end": "1178",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1179a",
+      "line_end": "1179a",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1179b",
+      "line_end": "1180",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1181a",
+      "line_end": "1181a",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1181b",
+      "line_end": "1181b",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1182a",
+      "line_end": "1182a",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1182b",
+      "line_end": "1183a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1183b",
+      "line_end": "1183b",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1184a",
+      "line_end": "1184a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1184b",
+      "line_end": "1184b",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1185",
+      "line_end": "1187",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1188",
+      "line_end": "1188",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1189",
+      "line_end": "1191",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1192",
+      "line_end": "1192",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1193a",
+      "line_end": "1193a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1193b",
+      "line_end": "1193b",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1194",
+      "line_end": "1194",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1195a",
+      "line_end": "1195a",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1195b",
+      "line_end": "1196",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1197a",
+      "line_end": "1197a",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1197b",
+      "line_end": "1197b",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1198a",
+      "line_end": "1198a",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1198b",
+      "line_end": "1199",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1200",
+      "line_end": "1201",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1202",
+      "line_end": "1215",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1216",
+      "line_end": "1232",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1233",
+      "line_end": "1243",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1244",
+      "line_end": "1250",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1251",
+      "line_end": "1258",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1259",
+      "line_end": "1262",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1263",
+      "line_end": "1263",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1264",
+      "line_end": "1264",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1265",
+      "line_end": "1265",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1266",
+      "line_end": "1266",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1267",
+      "line_end": "1267",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1268",
+      "line_end": "1268",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1269",
+      "line_end": "1270",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1271",
+      "line_end": "1271",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1272",
+      "line_end": "1272",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1273",
+      "line_end": "1273",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1274",
+      "line_end": "1274",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1275",
+      "line_end": "1275",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1276",
+      "line_end": "1276",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1277",
+      "line_end": "1277",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1278",
+      "line_end": "1278",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1279",
+      "line_end": "1279",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1280",
+      "line_end": "1280",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1281",
+      "line_end": "1281",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1282",
+      "line_end": "1282",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1283",
+      "line_end": "1283",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1284",
+      "line_end": "1284",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1285",
+      "line_end": "1285",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1286",
+      "line_end": "1286",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1287",
+      "line_end": "1287",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1288",
+      "line_end": "1288",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1289",
+      "line_end": "1289",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1290",
+      "line_end": "1290",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1291",
+      "line_end": "1291",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1292",
+      "line_end": "1292",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1293",
+      "line_end": "1293",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1294",
+      "line_end": "1294",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1295",
+      "line_end": "1295",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1296",
+      "line_end": "1296",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1297",
+      "line_end": "1297",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1298",
+      "line_end": "1298",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1299",
+      "line_end": "1299",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1300a",
+      "line_end": "1300a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1300b",
+      "line_end": "1300b",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1301",
+      "line_end": "1301",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1302",
+      "line_end": "1326",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1327",
+      "line_end": "1328",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1329a",
+      "line_end": "1329b",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1330",
+      "line_end": "1343",
+      "speaker": "Dionysus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1344",
+      "line_end": "1344",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1345",
+      "line_end": "1345",
+      "speaker": "Dionysus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1346",
+      "line_end": "1346",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1347",
+      "line_end": "1347",
+      "speaker": "Dionysus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1348",
+      "line_end": "1348",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1349",
+      "line_end": "1349",
+      "speaker": "Dionysus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1350",
+      "line_end": "1350",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1351",
+      "line_end": "1351",
+      "speaker": "Dionysus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1352",
+      "line_end": "1362",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1363",
+      "line_end": "1363",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1364",
+      "line_end": "1365",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1366",
+      "line_end": "1366",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1367",
+      "line_end": "1367",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1368",
+      "line_end": "1370",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1371a",
+      "line_end": "1371b",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1372a",
+      "line_end": "1372a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1372b",
+      "line_end": "1373",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1374",
+      "line_end": "1376",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1377",
+      "line_end": "1378",
+      "speaker": "Dionysus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1379a",
+      "line_end": "1379a",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1379b",
+      "line_end": "1380",
+      "speaker": "Cadmus",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1381",
+      "line_end": "1387",
+      "speaker": "Agave",
+      "section_id": "exodos"
+    },
+    {
+      "line_start": "1388",
+      "line_end": "1392",
+      "speaker": "Chorus",
+      "section_id": "exodos"
+    }
+  ]
+}

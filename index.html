@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bacchae — Dataset-driven prototype</title>
+<style>
+:root{--bg:#fff;--ink:#111;--muted:#666;--rule:#cfcfcf;--hi:#ffe45c;--edge:#9e8700}
+*{box-sizing:border-box} html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow:hidden}
+.app{height:100dvh;padding:4vh 5vw;display:flex;flex-direction:column}
+.header{display:flex;align-items:baseline;gap:.7rem;border-bottom:1px solid var(--rule);padding-bottom:12px;flex:none; padding-left: 20px}
+.play{font-size:1rem;font-weight:650} .sep{color:#999} .section, .range{font-size:.96rem;color:var(--muted)}
+.content{flex:1;min-height:0;position:relative; padding-left: 20px;}
+.wrap{height:100%;display:flex;flex-direction:column;justify-content:center;padding-right:0px}
+.context{margin-bottom:2vh; padding-top: 30px;}
+.speaker{font-size:1.35rem;font-weight:650}
+.passage{display:flex;flex-direction:column;justify-content:center}
+.line{font-family:"Noto Serif","Times New Roman",serif;font-size: clamp(1.35rem, 2.3vw, 2.02rem);line-height:1.43;white-space:nowrap}
+.token{cursor:pointer;padding:1px 2px;margin:0 -2px} .token:hover{background:#ffffff}
+.token.highlighted{background:var(--hi);box-shadow:0 0 0 1px var(--edge)}
+.token.annotated{outline:2px solid #111;outline-offset:1px}
+.hint{margin-top:1.5vh;font-size:.74rem;color:#888}
+.panel{position:fixed;z-index:20;right:0;top:0;height:100dvh;width:45vw;background:#fff;border-left:1px solid #aaa;box-shadow:-14px 0 35px rgba(0,0,0,.12);transform:translateX(100%);transition:transform .22s ease;display:flex;flex-direction:column}
+.panel.open{transform:translateX(0)}
+.panel-head{min-height:66px;padding:0 28px 0 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--rule)}
+.selected-form{font-size:1rem} .expanded{margin-left:.35em;color:var(--muted)}
+.close{border:0;background:transparent;color:#333;font-size:1.5rem;line-height:1;cursor:pointer;padding:5px}
+.panel-body{padding:22px 28px;overflow:auto} .lemma{font-weight:700} .gloss{margin-top:7px}
+.annotation-divider{border:0;border-top:1px solid var(--rule);margin:22px 0 0}
+.details{margin-top:22px;display:flex;flex-direction:column;gap:14px} .pos{font-weight:600} .features{line-height:1.55}
+.disable-interaction {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.disable-interaction:focus {
+    outline: none !important;
+}
+
+@media(max-width:900px){body{overflow:auto}.app{height:auto;min-height:100dvh}.line{white-space:normal}.panel{width:45vw}}
+@media (orientation: portrait) {.header {padding-left:0;} .content {padding:0;} .panel{width:70vw}}
+@media screen and (max-width: 850px) and (orientation: landscape) {.line {font-size: clamp(1.1rem, 1.8vw, 1.45rem);}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="header"><div class="play">Bacchae</div><div class="sep">·</div><div class="section">Prologue</div><div class="sep">·</div><div class="range">Lines 1–5</div></header>
+<main class="content"><section class="wrap">
+<div class="context"><div class="speaker">Dionysus</div></div>
+<div class="passage disable-interaction" id="passage"></div>
+</section></main></div>
+<aside class="panel" id="panel" aria-hidden="true">
+<header class="panel-head"><div class="selected-form" id="selectedForm"></div><button class="close" id="close" aria-label="Close annotation">×</button></header>
+<div class="panel-body" id="annotation"></div>
+</aside>
+<script>
+const DATA_FILES = {
+    text: "bacchae-text.json",
+    tokens: "bacchae-tokens.json",
+    speakers: "bacchae-speakers.json",
+    sections: "bacchae-sections.json",
+    passages: "bacchae-passages.json"
+};
+
+// Presentation settings. The datasets supply the content and metadata.
+const DISPLAY = {
+    lineStart: "1",
+    lineEnd: "5"
+};
+
+const passage = document.getElementById("passage");
+const panel = document.getElementById("panel");
+const selectedForm = document.getElementById("selectedForm");
+const annotation = document.getElementById("annotation");
+let timer = null;
+let suppress = false;
+
+function parseLineRef(value) {
+    const text = String(value ?? "").trim();
+    const match = text.match(/^(\d+)([a-z]?)$/i);
+    if (!match) return null;
+    const suffix = (match[2] || "").toLowerCase();
+    const suffixOrder = { "": 0, a: 1, b: 2, c: 3, d: 4, e: 5 };
+    return Number(match[1]) * 10 + (suffixOrder[suffix] ?? 0);
+}
+
+function inRange(line, start, end) {
+    const value = parseLineRef(line);
+    const low = parseLineRef(start);
+    const high = parseLineRef(end);
+    return value !== null && low !== null && high !== null && value >= low && value <= high;
+}
+
+function findRangeRecord(records, line, startKey = "line_start", endKey = "line_end") {
+    return records.find(record => inRange(line, record[startKey], record[endKey]));
+}
+
+function features(t) {
+    if (/participle/i.test(t.verb_form || "")) {
+        return [
+            [t.tense, t.voice].filter(Boolean).join(" · "),
+            [t.number, t.gender, t.case].filter(Boolean).join(" · ")
+        ].filter(Boolean);
+    }
+
+    if (/verb/i.test(t.pos || "")) {
+        return [
+            [t.person_number, t.tense, t.mood, t.voice].filter(Boolean).join(" · ")
+        ].filter(Boolean);
+    }
+
+    return [
+        [t.gender, t.number, t.case].filter(Boolean).join(" · ")
+    ].filter(Boolean);
+}
+
+function escapeHtml(value) {
+    return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+function annotate(t) {
+    document.querySelectorAll(".annotated").forEach(x => x.classList.remove("annotated"));
+    const el = document.querySelector('[data-id="' + CSS.escape(t.token_id) + '"]');
+    if (el) el.classList.add("annotated");
+
+    selectedForm.innerHTML = escapeHtml(t.form) +
+        (t.expanded_form ? '<span class="expanded">(' + escapeHtml(t.expanded_form) + ')</span>' : "");
+
+    const featureLines = features(t)
+        .map(f => '<div class="features">' + escapeHtml(f) + '</div>')
+        .join("");
+
+    annotation.innerHTML =
+        '<div class="lemma">' + escapeHtml(t.lemma) + '</div>' +
+        '<div class="gloss">' + escapeHtml(t.gloss) + '</div>' +
+        '<hr class="annotation-divider">' +
+        '<div class="details">' +
+            (t.pos
+                ? '<div class="pos">' + escapeHtml(t.pos) +
+                  (t.verb_form ? ' · ' + escapeHtml(t.verb_form) : '') +
+                  '</div>'
+                : '') +
+            featureLines +
+        '</div>';
+
+    panel.classList.add("open");
+    panel.setAttribute("aria-hidden", "false");
+}
+
+function renderToken(lineElement, token) {
+    const span = document.createElement("span");
+    span.className = "token";
+    span.dataset.id = token.token_id;
+    span.textContent = token.form;
+
+    span.addEventListener("click", () => {
+        if (suppress) {
+            suppress = false;
+            return;
+        }
+        span.classList.toggle("highlighted");
+    });
+
+    span.addEventListener("pointerdown", event => {
+        if (event.pointerType === "mouse" && event.button !== 0) return;
+        timer = setTimeout(() => {
+            suppress = true;
+            annotate(token);
+        }, 520);
+    });
+
+    ["pointerup", "pointercancel", "pointerleave"].forEach(eventName =>
+        span.addEventListener(eventName, () => clearTimeout(timer))
+    );
+
+    lineElement.appendChild(span);
+}
+
+async function loadData() {
+    const entries = await Promise.all(
+        Object.entries(DATA_FILES).map(async ([name, file]) => {
+            const response = await fetch(file);
+            if (!response.ok) throw new Error(`Could not load ${file} (${response.status})`);
+            return [name, await response.json()];
+        })
+    );
+    return Object.fromEntries(entries);
+}
+
+function render(data) {
+    const textLines = data.text.lines || [];
+    const tokens = data.tokens || [];
+    const speakers = data.speakers.speakers || [];
+    const sections = data.sections.sections || [];
+    const passages = data.passages.passages || [];
+
+    const lineTokens = new Map();
+    tokens.forEach(token => {
+        if (!lineTokens.has(token.line)) lineTokens.set(token.line, []);
+        lineTokens.get(token.line).push(token);
+    });
+
+    // Use the text dataset to establish the line sequence, including lines with no tokens.
+    const lines = textLines.filter(line => inRange(line.line, DISPLAY.lineStart, DISPLAY.lineEnd));
+
+    const speaker = findRangeRecord(speakers, DISPLAY.lineStart);
+    const section = speaker
+        ? sections.find(s => s.section_id === speaker.section_id)
+        : findRangeRecord(sections, DISPLAY.lineStart);
+
+    const matchingPassages = passages.filter(p =>
+        inRange(p.line_start, DISPLAY.lineStart, DISPLAY.lineEnd) ||
+        inRange(DISPLAY.lineStart, p.line_start, p.line_end)
+    );
+
+    document.querySelector(".section").textContent = section?.section || "";
+    document.querySelector(".range").textContent = `Lines ${DISPLAY.lineStart}–${DISPLAY.lineEnd}`;
+    document.querySelector(".speaker").textContent = speaker?.speaker || "";
+
+    // Keep passage data connected to the presentation even though the current header
+    // does not display a passage identifier.
+    document.body.dataset.passageIds = matchingPassages.map(p => p.passage_id).join(",");
+
+    passage.replaceChildren();
+
+    lines.forEach(line => {
+        const lineElement = document.createElement("div");
+        lineElement.className = "line";
+        lineElement.dataset.line = line.line;
+
+        const tokensForLine = lineTokens.get(line.line) || [];
+
+        if (tokensForLine.length) {
+            tokensForLine.forEach((token, index) => {
+                renderToken(lineElement, token);
+                if (index < tokensForLine.length - 1) {
+                    lineElement.appendChild(document.createTextNode(" "));
+                }
+            });
+        } else {
+            // Empty/tokenless lines remain visible because the text dataset is authoritative
+            // for the complete sequence of lines.
+            lineElement.textContent = line.text || "";
+        }
+
+        passage.appendChild(lineElement);
+    });
+}
+
+document.getElementById("close").addEventListener("click", () => {
+    panel.classList.remove("open");
+    panel.setAttribute("aria-hidden", "true");
+    document.querySelectorAll(".annotated").forEach(x => x.classList.remove("annotated"));
+});
+
+loadData()
+    .then(render)
+    .catch(error => {
+        console.error(error);
+        passage.innerHTML = '<div style="color:#900">Unable to load the Bacchae datasets. The HTML file must be served together with the five JSON files.</div>';
+    });
+</script>
+</body></html>

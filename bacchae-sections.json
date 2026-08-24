@@ -1,0 +1,238 @@
+{
+  "sections": [
+    {
+      "section_id": "prologue",
+      "section": "Prologue",
+      "line_start": 1,
+      "line_end": 63
+    },
+    {
+      "section_id": "parodos",
+      "section": "Parodos",
+      "line_start": 64,
+      "line_end": 169,
+      "subsections": [
+         {
+           "subsection": "Proem",
+           "line_start": 64,
+           "line_end": 72
+         },
+         {
+           "subsection": "Strophe",
+           "line_start": "73a",
+           "line_end": "87b"
+         },
+         {
+           "subsection": "Antistrophe",
+           "line_start": "88a",
+           "line_end": 104
+         },
+         {
+           "subsection": "Strophe",
+           "line_start": 105,
+           "line_end": 119
+         },
+         {
+           "subsection": "Antistrophe",
+           "line_start": 120,
+           "line_end": 134
+         },
+         {
+           "subsection": "Epode",
+           "line_start": 135,
+           "line_end": 169
+         }
+       ]
+    },
+    {
+      "section_id": "scene_1",
+      "section": "Scene 1",
+      "line_start": 170,
+      "line_end": 369
+    },
+    {
+      "section_id": "stasimon_1",
+      "section": "Stasimon 1",
+      "line_start": 370,
+      "line_end": 432,
+      "subsections": [
+         {
+           "subsection": "Strophe",
+           "line_start": 370,
+           "line_end": "385b"
+         },
+         {
+           "subsection": "Antistrophe",
+           "line_start": 386,
+           "line_end": "401b"
+         },
+         {
+           "subsection": "Strophe",
+           "line_start": 402,
+           "line_end": 416
+         },
+         {
+           "subsection": "Antistrophe",
+           "line_start": 417,
+           "line_end": 432
+         }
+       ]
+     },
+    {
+      "section_id": "scene_2",
+      "section": "Scene 2",
+      "line_start": 434,
+      "line_end": 518
+    },
+    {
+      "section_id": "stasimon_2",
+      "section": "Stasimon 2",
+      "line_start": "519a",
+      "line_end": 575,
+      "subsections": [
+         {
+           "subsection": "Strophe",
+           "line_start": "519a",
+           "line_end": 536
+         },
+         {
+           "subsection": "Antistrophe",
+           "line_start": 537,
+           "line_end": 555
+         },
+         {
+           "subsection": "Epode",
+           "line_start": 556,
+           "line_end": 575
+         }
+       ]
+     },
+    {
+      "section_id": "scene_3",
+      "section": "Scene 3",
+      "line_start": "576a",
+      "line_end": 861,
+      "subsections": [
+         {
+           "subsection": "(a)",
+           "line_start": "576a",
+           "line_end": 659
+         },
+         {
+           "subsection": "(b)",
+           "line_start": 660,
+           "line_end": 786
+         },
+         {
+           "subsection": "(c)",
+           "line_start": 787,
+           "line_end": 861
+         }
+       ]
+     },
+    {
+      "section_id": "stasimon_3",
+      "section": "Stasimon 3",
+      "line_start": 862,
+      "line_end": 911,
+      "subsections": [
+         {
+           "subsection": "Strophe",
+           "line_start": 862,
+           "line_end": 881
+         },
+         {
+           "subsection": "Antistrophe",
+           "line_start": 882,
+           "line_end": 901
+         },
+         {
+           "subsection": "Epode",
+           "line_start": 902,
+           "line_end": 911
+         }
+       ]
+     },
+    {
+      "section_id": "scene_4",
+      "section": "Scene 4",
+      "line_start": 912,
+      "line_end": 976
+    },
+    {
+      "section_id": "stasimon_4",
+      "section": "Stasimon 4",
+      "line_start": 977,
+      "line_end": 1023,
+      "subsections": [
+         {
+           "subsection": "Strophe",
+           "line_start": 977,
+           "line_end": 996
+         },
+         {
+           "subsection": "Antistrophe",
+           "line_start": 997,
+           "line_end": 1016
+         },
+         {
+           "subsection": "Epode",
+           "line_start": 1018,
+           "line_end": 1023
+         }
+       ]
+     },
+    {
+      "section_id": "scene_5",
+      "section": "Scene 5",
+      "line_start": 1024,
+      "line_end": 1152
+    },
+    {
+      "section_id": "stasimon_5",
+      "section": "Stasimon 5",
+      "line_start": 1153,
+      "line_end": 1164,
+      "subsections": [
+         {
+           "subsection": "(Monostrophe)",
+           "line_start": 1153,
+           "line_end": 1164
+         }
+       ]
+     },
+    {
+      "section_id": "exodos",
+      "section": "Exodos",
+      "line_start": 1165,
+      "line_end": 1392,
+      "subsections": [
+         {
+           "subsection": "(a)",
+           "line_start": 1165,
+           "line_end": 1215
+         },
+         {
+           "subsection": "(b)",
+           "line_start": 1216,
+           "line_end": "1300b"
+         },
+         {
+           "subsection": "(c)",
+           "line_start": 1301,
+           "line_end": "1329b"
+         },
+         {
+           "subsection": "(d)",
+           "line_start": 1330,
+           "line_end": 1365
+         },
+         {
+           "subsection": "(e)",
+           "line_start": 1366,
+           "line_end": 1392
+         }
+       ]
+     }
+  ]
+}
