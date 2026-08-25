@@ -5,27 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Bacchae — Dataset-driven prototype</title>
 <meta name="robots" content="noindex, nofollow" />
-<style>
-:root{--bg:#fff;--ink:#111;--muted:#666;--rule:#cfcfcf;--hi:#ffe45c;--edge:#9e8700}
-*{box-sizing:border-box} html,body{height:100%;margin:0}
-body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow:hidden}
-.app{height:100dvh;padding:4vh 5vw;display:flex;flex-direction:column}
-.header{display:flex;align-items:baseline;gap:.7rem;border-bottom:1px solid var(--rule);padding-bottom:12px;flex:none;padding-left:20px}
-.play{font-size:1rem;font-weight:650}.sep{color:#999}.section,.range{font-size:.96rem;color:var(--muted)}
-.content{flex:1;min-height:0;position:relative;padding-left:20px}.wrap{height:100%;display:flex;flex-direction:column;justify-content:center;padding-right:0}
-.context{margin-bottom:2vh;padding-top:30px}.speaker{font-size:1.35rem;font-weight:650}
-.passage{display:flex;flex-direction:column;justify-content:center}
-.line{font-family:"Noto Serif","Times New Roman",serif;font-size:clamp(1.35rem,2.3vw,2.02rem);line-height:1.43;white-space:nowrap}
-.token{cursor:pointer;padding:1px 2px;margin:0 -2px}.token:hover{background:#ffffff}.token.highlighted{background:var(--hi)}.token.annotated{background:rgba(0,0,0,.08)}
-.panel{position:fixed;z-index:20;right:0;top:0;height:100dvh;width:45vw;background:#fff;border-left:1px solid #aaa;box-shadow:-14px 0 35px rgba(0,0,0,.12);transform:translateX(100%);transition:transform .22s ease;display:flex;flex-direction:column}
-.panel.open{transform:translateX(0)}.panel-head{min-height:66px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--rule)}
-.selected-form{font-size:1rem}.expanded{margin-left:.35em;color:var(--muted)}.close{border:0;background:transparent;color:#333;font-size:1.5rem;line-height:1;cursor:pointer;padding:5px}
-.panel-body{padding:22px 28px;overflow:auto}.lemma{font-weight:700}.gloss{margin-top:7px}.annotation-divider{border:0;border-top:1px solid var(--rule);margin:22px 0 0}.details{margin-top:22px;display:flex;flex-direction:column;gap:14px}.pos{font-weight:600}.features{line-height:1.55}
-.disable-interaction{-webkit-user-select:none;-moz-user-select:none;user-select:none}.disable-interaction:focus{outline:none!important}
-@media(max-width:900px){body{overflow:auto}.app{height:auto;min-height:100dvh}.line{white-space:normal}.panel{width:45vw}}
-@media(orientation:portrait){.header{padding-left:0}.content{padding:0}.panel{width:70vw}}
-@media screen and (max-width:850px) and (orientation:landscape){.line{font-size:clamp(1.1rem,1.8vw,1.45rem)}}
-</style>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="app">
