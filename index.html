@@ -49,7 +49,7 @@ function findRangeRecord(records,line){
   return records.find(record=>inRange(line,record.line_start,record.line_end));
 }
 function features(t){
-  if(/participle/i.test(t.verb_form||""))return[[t.tense,t.voice].filter(Boolean).join(" · "),[t.number,t.gender,t.case].filter(Boolean).join(" · ")].filter(Boolean);
+  if(/participle/i.test(t.pos_form||""))return[[t.tense,t.voice].filter(Boolean).join(" · "),[t.number,t.gender,t.case].filter(Boolean).join(" · ")].filter(Boolean);
   if(/verb/i.test(t.pos||""))return[[t.person_number,t.tense,t.mood,t.voice].filter(Boolean).join(" · ")].filter(Boolean);
   return[[t.gender,t.number,t.case].filter(Boolean).join(" · ")].filter(Boolean);
 }
@@ -60,7 +60,7 @@ function annotate(t){
   document.querySelectorAll('[data-id="'+CSS.escape(t.token_id)+'"]').forEach(x=>x.classList.add("annotated"));
   selectedForm.innerHTML=escapeHtml(t.form)+(t.expanded_form?'<span class="expanded">('+escapeHtml(t.expanded_form)+')</span>':"");
   const featureLines=features(t).map(f=>'<div class="features">'+escapeHtml(f)+'</div>').join("");
-  annotation.innerHTML='<div class="lemma">'+escapeHtml(t.lemma)+'</div>'+'<div class="gloss">'+escapeHtml(t.gloss)+'</div>'+'<hr class="annotation-divider">'+'<div class="details">'+(t.pos?'<div class="pos">'+escapeHtml(t.pos)+(t.verb_form?' · '+escapeHtml(t.verb_form):"")+'</div>':"")+featureLines+'</div>';
+  annotation.innerHTML='<div class="lemma">'+escapeHtml(t.lemma)+'</div>'+'<div class="gloss">'+escapeHtml(t.gloss)+'</div>'+'<hr class="annotation-divider">'+'<div class="details">'+(t.pos?'<div class="pos">'+escapeHtml(t.pos)+(t.pos_form?' · '+escapeHtml(t.pos_form):"")+'</div>':"")+featureLines+'</div>';
   panel.classList.add("open");panel.setAttribute("aria-hidden","false");
 }
 
