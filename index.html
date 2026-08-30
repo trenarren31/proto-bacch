@@ -247,7 +247,28 @@ function render(data){
 }
 
 document.getElementById("close").addEventListener("click",()=>{panel.classList.remove("open");panel.setAttribute("aria-hidden","true");document.querySelectorAll(".annotated").forEach(x=>x.classList.remove("annotated"))});
-loadData().then(render).catch(error=>{console.error(error);passage.innerHTML='<div style="color:#900">Unable to load the Bacchae datasets.</div>'});
+loadData().then(data=>{
+  render(data);
+
+  const token=data.tokens.find(t=>t.token_id==="l61_t1");
+  const line=data.text.lines.find(l=>String(l.line)==="61");
+
+  const diagnostic=document.createElement("pre");
+  diagnostic.style.cssText="margin:20px;padding:10px;font-size:12px;white-space:pre-wrap;background:#eee;color:#000;";
+
+  diagnostic.textContent=
+    "TOKEN:\n"+
+    JSON.stringify(token?.form)+"\n"+
+    Array.from(token?.form||"").map(c=>`${c} U+${c.codePointAt(0).toString(16).toUpperCase()}`).join("\n")+
+    "\n\nSOURCE:\n"+
+    JSON.stringify(line?.text)+"\n"+
+    Array.from(line?.text||"").slice(0,12).map(c=>`${c} U+${c.codePointAt(0).toString(16).toUpperCase()}`).join("\n");
+
+  document.body.appendChild(diagnostic);
+}).catch(error=>{
+  console.error(error);
+  passage.innerHTML='<div style="color:#900">Unable to load the Bacchae datasets.</div>';
+});
 </script>
 </body>
 </html>
