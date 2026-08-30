@@ -247,28 +247,7 @@ function render(data){
 }
 
 document.getElementById("close").addEventListener("click",()=>{panel.classList.remove("open");panel.setAttribute("aria-hidden","true");document.querySelectorAll(".annotated").forEach(x=>x.classList.remove("annotated"))});
-loadData().then(data=>{
-  render(data);
-
-  const line=document.querySelector('[data-line="61"]');
-  const diagnostic=document.createElement("pre");
-
-  diagnostic.style.cssText=
-    "margin:20px;padding:10px;font-size:12px;"+
-    "white-space:pre-wrap;background:#eee;color:#000;";
-
-  diagnostic.textContent=
-    "LINE 61 DOM:\n"+
-    Array.from(line?.childNodes||[]).map((node,i)=>{
-      if(node.nodeType===3)
-        return `[${i}] TEXT: "${node.textContent}"`;
-      return `[${i}] SPAN: "${node.textContent}" data-id=${node.dataset.id}`;
-    }).join("\n");
-
-  document.body.appendChild(diagnostic);
-}).catch(error=>{
-  console.error(error);
-  passage.innerHTML='<div style="color:#900">Unable to load the Bacchae datasets.</div>';
-});</script>
+loadData().then(render).catch(error=>{console.error(error);passage.innerHTML='<div style="color:#900">Unable to load the Bacchae datasets.</div>'});
+</script>
 </body>
 </html>
