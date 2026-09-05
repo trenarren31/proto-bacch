@@ -1,4 +1,16 @@
 {
+  "source": {
+    "author": "Euripides",
+    "work": "Euripidis Fabulae, vol. 3",
+    "editor": "Gilbert Murray",
+    "place": "Oxford",
+    "publisher": "Clarendon Press",
+    "year": 1913,
+    "digital_source": "Perseus Digital Library",
+    "digital_identifier": "Perseus:text:1999.01.0091",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 United States",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/us/"
+  },
   "lines": [
     {
       "line": "1",
