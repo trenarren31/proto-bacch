@@ -49,7 +49,7 @@ function findRangeRecord(records,line){
   return records.find(record=>inRange(line,record.line_start,record.line_end));
 }
 function features(t){
-  if(/participle/i.test(t.pos_form||""))return[[t.tense,t.voice].filter(Boolean).join(" · "),[t.number,t.gender,t.case].filter(Boolean).join(" · ")].filter(Boolean);
+  if(/participle|verbal adjective/i.test(t.pos_form||""))return[[t.tense,t.voice].filter(Boolean).join(" · "),[t.number,t.gender,t.case].filter(Boolean).join(" · ")].filter(Boolean);
   if(/verb/i.test(t.pos||""))return[[t.person_number,t.tense,t.mood,t.voice].filter(Boolean).join(" · ")].filter(Boolean);
   return[[t.number,t.gender,t.case].filter(Boolean).join(" · ")].filter(Boolean);
 }
