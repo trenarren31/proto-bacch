@@ -752,54 +752,54 @@
     },
     {
       "line_start": "800",
-      "line_end": "800",
-      "speaker": "Pentheus",
-      "section_id": "scene_3"
-    },
-    {
-      "line_start": "801",
       "line_end": "801",
-      "speaker": "Dionysus",
+      "speaker": "Pentheus",
       "section_id": "scene_3"
     },
     {
       "line_start": "802",
       "line_end": "802",
-      "speaker": "Pentheus",
+      "speaker": "Dionysus",
       "section_id": "scene_3"
     },
     {
       "line_start": "803",
       "line_end": "803",
-      "speaker": "Dionysus",
+      "speaker": "Pentheus",
       "section_id": "scene_3"
     },
     {
       "line_start": "804",
       "line_end": "804",
-      "speaker": "Pentheus",
+      "speaker": "Dionysus",
       "section_id": "scene_3"
     },
     {
       "line_start": "805",
       "line_end": "805",
-      "speaker": "Dionysus",
+      "speaker": "Pentheus",
       "section_id": "scene_3"
     },
     {
       "line_start": "806",
       "line_end": "806",
-      "speaker": "Pentheus",
+      "speaker": "Dionysus",
       "section_id": "scene_3"
     },
     {
       "line_start": "807",
       "line_end": "807",
-      "speaker": "Dionysus",
+      "speaker": "Pentheus",
       "section_id": "scene_3"
     },
     {
       "line_start": "808",
+      "line_end": "808",
+      "speaker": "Dionysus",
+      "section_id": "scene_3"
+    },
+    {
+      "line_start": "809",
       "line_end": "809",
       "speaker": "Pentheus",
       "section_id": "scene_3"
@@ -1004,12 +1004,12 @@
     },
     {
       "line_start": "845",
-      "line_end": "847",
+      "line_end": "846",
       "speaker": "Pentheus",
       "section_id": "scene_3"
     },
     {
-      "line_start": "848",
+      "line_start": "847",
       "line_end": "861",
       "speaker": "Dionysus",
       "section_id": "scene_3"
