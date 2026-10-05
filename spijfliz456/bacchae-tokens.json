@@ -111117,8 +111117,8 @@
         "form": "αὐταῖς",
         "lemma": "αὐτός",
         "expanded_form": null,
-        "gloss": "same, very",
-        "pos": "Adjective",
+        "gloss": "-self, -selves",
+        "pos": "Pronoun",
         "pos_form": null,
         "person_number": null,
         "tense": null,
@@ -112179,7 +112179,7 @@
         "form": "γαυρουμένη",
         "lemma": "γαυρόω",
         "expanded_form": null,
-        "gloss": "make proud, exult",
+        "gloss": "make proud;  exult [middle]",
         "pos": "Verb",
         "pos_form": "Participle",
         "person_number": null,
@@ -112734,22 +112734,40 @@
         "token_id": "l1150_t2"
     },
     {
-        "form": "τὸ",
-        "lemma": "ὁ",
+        "form": "δὲ",
+        "lemma": "δέ",
         "expanded_form": null,
-        "gloss": "the",
-        "pos": "Article",
+        "gloss": "but, on the other hand",
+        "pos": "Particle",
         "pos_form": null,
         "person_number": null,
         "tense": null,
         "mood": null,
         "voice": null,
-        "number": "Singular",
-        "gender": "Neuter",
-        "case": "Nominative",
+        "number": null,
+        "gender": null,
+        "case": null,
         "line": "1150",
         "token": 3,
         "token_id": "l1150_t3"
+    },
+    {
+        "form": "καὶ",
+        "lemma": "καί",
+        "expanded_form": null,
+        "gloss": "and, even, also",
+        "pos": "Conjunction",
+        "pos_form": null,
+        "person_number": null,
+        "tense": null,
+        "mood": null,
+        "voice": null,
+        "number": null,
+        "gender": null,
+        "case": null,
+        "line": "1150",
+        "token": 4,
+        "token_id": "l1150_t4"
     },
     {
         "form": "σέβειν",
@@ -112766,8 +112784,8 @@
         "gender": null,
         "case": null,
         "line": "1150",
-        "token": 4,
-        "token_id": "l1150_t4"
+        "token": 5,
+        "token_id": "l1150_t5"
     },
     {
         "form": "τὰ",
@@ -112784,8 +112802,8 @@
         "gender": "Neuter",
         "case": "Accusative",
         "line": "1150",
-        "token": 5,
-        "token_id": "l1150_t5"
+        "token": 6,
+        "token_id": "l1150_t6"
     },
     {
         "form": "τῶν",
@@ -112802,8 +112820,8 @@
         "gender": "Masculine",
         "case": "Genitive",
         "line": "1150",
-        "token": 6,
-        "token_id": "l1150_t6"
+        "token": 7,
+        "token_id": "l1150_t7"
     },
     {
         "form": "θεῶν",
@@ -112820,8 +112838,8 @@
         "gender": "Masculine",
         "case": "Genitive",
         "line": "1150",
-        "token": 7,
-        "token_id": "l1150_t7"
+        "token": 8,
+        "token_id": "l1150_t8"
     },
     {
         "form": "κάλλιστον",
